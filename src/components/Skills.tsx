@@ -18,7 +18,6 @@ export function Skills() {
       eyebrow="Skills & Expertise"
       title="Regulations and frameworks I work in"
       intro="Applied through coursework, product development plans and clinical practice."
-      className="bg-white/60 dark:bg-white/[0.015]"
     >
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map((g, i) => {

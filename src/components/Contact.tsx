@@ -34,7 +34,7 @@ export function Contact() {
       id="contact"
       eyebrow="Contact"
       title="Let's talk regulatory affairs"
-      intro="Hiring for regulatory affairs, clinical operations or quality? I'd be glad to hear from you."
+      intro="Hiring for regulatory affairs, quality, risk management or clinical roles? I'd be glad to hear from you."
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr]">
         <Reveal className="space-y-4">

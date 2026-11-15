@@ -12,9 +12,9 @@ const fraunces = Fraunces({
   axes: ["opsz"],
 });
 
-const title = `${profile.name} — Medical Device Regulatory Affairs`;
+const title = `${profile.name} — Regulatory Affairs, Drugs & Medical Devices`;
 const description =
-  "Regulatory affairs MS candidate (University of Washington, GPA 3.93) and licensed dentist. FDA 510(k), design controls (21 CFR 820.30), ISO 14971, ISO 13485, ICH E6 GCP and international market access.";
+  "Regulatory affairs MS candidate (University of Washington, GPA 3.93) and licensed dentist. FDA 510(k), design controls (21 CFR 820.30), ISO 14971, ISO 13485, ICH E6 GCP and international market access. Regulatory affairs, quality and clinical roles across drugs and medical devices.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   keywords: [
     "Regulatory Affairs",
     "Medical Device Regulatory Affairs",
+    "Drug Regulatory Affairs",
     "510(k)",
     "Design Controls",
     "21 CFR 820.30",
@@ -32,6 +33,11 @@ export const metadata: Metadata = {
     "ICH E6 GCP",
     "Clinical Trial Operations",
     "Regulatory Affairs Specialist",
+    "Regulatory Affairs Associate",
+        "Quality Assurance",
+    "Risk Management Specialist",
+    "Clinical Research Associate",
+    "Pharmacovigilance",
     "University of Washington",
     "Supriya Macherla",
   ],

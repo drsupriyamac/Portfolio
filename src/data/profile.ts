@@ -8,22 +8,52 @@ export const profile = {
   name: "Dr. Supriya Macherla",
   credentials: "BDS",
   shortName: "Supriya Macherla",
-  headline: "Medical Device Regulatory Affairs",
+  headline: "Regulatory Affairs · Drugs & Medical Devices",
   subheadline:
-    "510(k) strategy · Design controls · Risk management · Clinical trial documentation",
+    "510(k) & global submissions · Design controls · Risk management · Clinical trials (ICH GCP)",
   intro:
     "Dentist turned regulatory affairs professional. MS candidate in Biomedical Regulatory Affairs at the University of Washington, building the 510(k) plan for Iris™, a Class II dental device I originated — backed by 2+ years of clinical practice under CDSCO and NABH compliance.",
   location: "Greater Seattle Area, WA",
   email: "drsupriyamac@gmail.com",
   linkedin: "https://www.linkedin.com/in/dr-supriya-macherla-3101942a3/",
   resumePath: "/Supriya-Macherla-Resume.pdf",
-  availability: "Seeking Regulatory Affairs Associate & Specialist roles · from June 2027",
   topSkills: [
     "FDA 510(k) & Predicate Analysis",
     "Design Controls · 21 CFR 820.30",
     "ISO 14971 Risk Management",
     "ICH E6 GCP & Clinical Protocols",
     "International Market Access",
+  ],
+};
+
+export const targetRoles = {
+  summary:
+    "Graduating with an MS in Biomedical Regulatory Affairs from the University of Washington in June 2027.",
+  groups: [
+    {
+      title: "Regulatory Affairs",
+      roles: [
+        "Regulatory Affairs Associate",
+        "Regulatory Affairs Specialist",
+        "Regulatory Operations / Submissions Associate",
+      ],
+    },
+    {
+      title: "Quality & Risk Management",
+      roles: [
+        "Quality Assurance Associate / Specialist",
+        "Risk Management Specialist",
+        "Design Quality / Design Assurance Associate",
+      ],
+    },
+    {
+      title: "Clinical",
+      roles: [
+        "Clinical Research Associate (CRA)",
+        "Clinical Trial Associate",
+        "Pharmacovigilance / Drug Safety Associate",
+      ],
+    },
   ],
 };
 
@@ -62,7 +92,7 @@ export const about = {
 
 export const skillGroups = [
   {
-    title: "Device Regulation",
+    title: "Regulatory Pathways",
     icon: "fileCheck",
     skills: [
       "FDA 510(k)",
@@ -262,16 +292,6 @@ export const experience: Role[] = [
       "Applied CDSCO-compliant device sterilization, inventory control and regulatory documentation across procedures for 100+ patients.",
     ],
     tags: ["CDSCO", "Sterilization", "Inventory control"],
-  },
-  {
-    title: "Marketing Intern",
-    org: "Bijbol",
-    location: "India",
-    dates: "Jun 2019 – May 2020",
-    points: [
-      "Conducted market research and competitor analysis, and tracked campaign performance metrics to inform marketing strategy.",
-    ],
-    tags: ["Market research", "Competitive intelligence"],
   },
 ];
 

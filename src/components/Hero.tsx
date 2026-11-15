@@ -13,14 +13,6 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:items-center lg:gap-16 lg:px-8">
         <div>
-          <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent-soft/70 px-3 py-1.5 text-xs font-semibold text-accent dark:border-teal-300/20 dark:bg-teal-400/10 dark:text-teal-200">
-            <span className="relative flex size-2">
-              <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-50 motion-reduce:hidden dark:bg-teal-300" />
-              <span className="relative inline-flex size-2 rounded-full bg-accent dark:bg-teal-300" />
-            </span>
-            {profile.availability}
-          </p>
-
           <h1 className="font-serif text-[2.6rem] leading-[1.05] font-medium tracking-tight text-ink sm:text-6xl dark:text-white">
             {profile.name}
             <span className="text-slate-400 dark:text-slate-500">, {profile.credentials}</span>
