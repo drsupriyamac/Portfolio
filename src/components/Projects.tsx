@@ -81,7 +81,7 @@ export function Projects() {
       id="projects"
       eyebrow="Featured Projects"
       title="Regulatory work, start to submission"
-      intro="Device submissions, clinical protocols and global launch strategy — each built on real regulations, predicates and standards."
+      intro="Device submissions, clinical protocols and global launch strategy, each built on real regulations, predicates and standards."
     >
       <div className="space-y-6">
         {projects.map((p, i) => (

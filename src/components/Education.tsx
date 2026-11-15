@@ -1,4 +1,4 @@
-import { BadgeCheck, GraduationCap } from "lucide-react";
+import { Award, BadgeCheck, GraduationCap } from "lucide-react";
 import { credentials, education } from "@/data/profile";
 import { Reveal } from "./Reveal";
 import { Card, Section } from "./ui";
@@ -24,6 +24,33 @@ export function Education() {
                   </p>
                 </div>
               </div>
+              {e.distinctions.length > 0 && (
+                <div className="mt-5">
+                  <h4 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.15em] text-[#8a5a14] dark:text-amber-300">
+                    <Award className="size-4" aria-hidden="true" /> Distinctions
+                  </h4>
+                  <ul className="mt-2 flex flex-wrap gap-1.5">
+                    {e.distinctions.map((d) => (
+                      <li
+                        key={d}
+                        className="rounded-md border border-gold/30 bg-gold/10 px-2.5 py-1 text-[0.8rem] font-medium text-[#7a5418] dark:text-amber-200"
+                      >
+                        {d}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {e.highlights.length > 0 && (
+                <ul className="mt-5 space-y-2">
+                  {e.highlights.map((h) => (
+                    <li key={h} className="flex gap-2.5 text-[0.92rem] leading-relaxed text-slate-700 dark:text-slate-300">
+                      <span aria-hidden="true" className="mt-2 size-1.5 shrink-0 rounded-full bg-accent dark:bg-teal-300" />
+                      {h}
+                    </li>
+                  ))}
+                </ul>
+              )}
               {e.coursework.length > 0 && (
                 <div className="mt-5">
                   <h4 className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500 dark:text-slate-400">

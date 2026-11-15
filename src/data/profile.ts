@@ -1,7 +1,7 @@
 /**
  * Single source of truth for all site content.
  * Everything here is taken from Dr. Supriya Macherla's resume.
- * To update the site, edit this file only — then rebuild.
+ * To update the site, edit this file only, then rebuild.
  */
 
 export const profile = {
@@ -12,7 +12,7 @@ export const profile = {
   subheadline:
     "510(k) & global submissions · Design controls · Risk management · Clinical trials (ICH GCP)",
   intro:
-    "Dentist turned regulatory affairs professional. MS candidate in Biomedical Regulatory Affairs at the University of Washington, building the 510(k) plan for Iris™, a Class II dental device I originated — backed by 2+ years of clinical practice under CDSCO and NABH compliance.",
+    "Dentist turned regulatory affairs professional. MS candidate in Biomedical Regulatory Affairs at the University of Washington, building the 510(k) plan for Iris™, a Class II dental device I originated. Backed by 2+ years of clinical practice under CDSCO and NABH compliance.",
   location: "Greater Seattle Area, WA",
   email: "drsupriyamac@gmail.com",
   linkedin: "https://www.linkedin.com/in/dr-supriya-macherla-3101942a3/",
@@ -66,14 +66,14 @@ export const stats = [
 
 export const about = {
   paragraphs: [
-    "I am a regulatory affairs MS candidate at the University of Washington with applied work across the full product lifecycle — from medical device submissions and design controls to clinical trial documentation and international market strategy.",
-    "Before moving into regulatory affairs, I practiced as a licensed dentist in India for more than two years, working under CDSCO, NABH and DCI requirements. That gave me firsthand knowledge of how devices are actually handled, sterilized and used on patients — the perspective I now bring to user needs, hazard analysis and labeling decisions.",
+    "I am a regulatory affairs MS candidate at the University of Washington with applied work across the full product lifecycle, from medical device submissions and design controls to clinical trial documentation and international market strategy.",
+    "Before moving into regulatory affairs, I practiced as a licensed dentist in India for more than two years, working under CDSCO, NABH and DCI requirements. That gave me firsthand knowledge of how devices are actually handled, sterilized and used on patients. I now bring that perspective to user needs, hazard analysis and labeling decisions.",
     "Today I am taking a device of my own from concept toward market: Iris™, a Class II smart intraoral mirror, for which I am developing the 510(k) plan, risk file and design control framework.",
   ],
   strengths: [
     {
       title: "Clinician's view of device risk",
-      text: "Hands-on clinical experience with device handling, sterilization and infection control — including CDSCO, NABH and DCI compliance across 300+ patient cases.",
+      text: "Hands-on clinical experience with device handling, sterilization and infection control, including CDSCO, NABH and DCI compliance across 300+ patient cases.",
     },
     {
       title: "Submission-ready thinking",
@@ -214,7 +214,7 @@ export const projects: Project[] = [
     tag: "Clinical operations",
     role: "Co-author",
     problem:
-      "Design a randomized, double-blind Phase III trial comparing two pancreatic enzyme therapies in exocrine pancreatic insufficiency — 500 subjects across 10 sites.",
+      "Design a randomized, double-blind Phase III trial comparing two pancreatic enzyme therapies in exocrine pancreatic insufficiency, with 500 subjects across 10 sites.",
     contributions: [
       "Co-authored the protocol: objectives, inclusion/exclusion criteria, visit schedule, AE/SAE reporting workflow and informed consent per ICH E6 and 21 CFR 50/56/312.",
       "Wrote the CRA monitoring plan, the trial communication plan and the 10-site timeline summary.",
@@ -253,7 +253,7 @@ export type Role = {
 export const experience: Role[] = [
   {
     title: "Research Assistant (Volunteer)",
-    org: "UW School of Dentistry, Oral Health Sciences — Popowics Lab",
+    org: "UW School of Dentistry, Oral Health Sciences, Popowics Lab",
     location: "Seattle, WA",
     dates: "Oct 2026 – Present",
     points: [
@@ -313,6 +313,8 @@ export const education = [
       "FDA Regulation of AI/ML SaMD",
       "International Regulatory Affairs",
     ],
+    distinctions: [] as string[],
+    highlights: [] as string[],
   },
   {
     degree: "Bachelor of Dental Surgery (BDS)",
@@ -321,6 +323,18 @@ export const education = [
     dates: "Aug 2018 – Jan 2023",
     gpa: "3.78",
     coursework: [],
+    distinctions: [
+      "Anatomy",
+      "Pharmacology",
+      "Microbiology & Pathology",
+      "Oral & Maxillofacial Surgery",
+      "Orthodontics",
+    ],
+    highlights: [
+      "Pharmacology, microbiology and pathology give me a working basis for drug safety, adverse event assessment, sterilization and infection control.",
+      "Oral and maxillofacial surgery and orthodontics involve heavy device use, which shapes how I approach user needs, hazards and labeling for dental devices.",
+      "Survey research on biomimetic materials among dental undergraduates (n=223, SPSS analysis), published in IJARESM in 2023.",
+    ],
   },
 ];
 
@@ -341,7 +355,7 @@ export const publications = [
   },
   {
     title:
-      "Gender Differences in Adherence to Orthodontic Practices: An Evaluation of Oral Hygiene and Appointment Compliance — An Observational Study",
+      "Gender Differences in Adherence to Orthodontic Practices: An Evaluation of Oral Hygiene and Appointment Compliance: An Observational Study",
     venue: "African Journal of Biomedical Research",
     date: "Oct 2024",
     url: "https://africanjournalofbiomedicalresearch.com/index.php/AJBR/article/view/2502",
@@ -350,7 +364,7 @@ export const publications = [
 
 export const recognition = [
   {
-    title: "Poster presentation — Iris™ regulatory strategy",
+    title: "Poster presentation: Iris™ regulatory strategy",
     detail: "UW GPSS Symposium · May 2026",
   },
 ];

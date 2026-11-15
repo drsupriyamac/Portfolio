@@ -1,4 +1,4 @@
-# Dr. Supriya Macherla — Portfolio
+# Dr. Supriya Macherla: Portfolio
 
 Personal portfolio site built with **Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · Lucide icons**.
 It builds to a fully static site in `out/` and can be hosted for free anywhere.
