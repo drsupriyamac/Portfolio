@@ -49,8 +49,16 @@ export const metadata: Metadata = {
     title,
     description,
     siteName: profile.name,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 627,
+        alt: "Dr. Supriya Macherla, BDS. Portfolio: Regulatory Affairs, Drugs & Medical Devices",
+      },
+    ],
   },
-  twitter: { card: "summary", title, description },
+  twitter: { card: "summary_large_image", title, description, images: ["/og-image.png"] },
   robots: { index: true, follow: true },
 };
 
