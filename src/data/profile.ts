@@ -321,7 +321,7 @@ export const education = [
     school: "Mamata Dental College & Hospital",
     location: "Khammam, India",
     dates: "Aug 2018 – Jan 2023",
-    gpa: "3.78",
+    gpa: "3.78 / 4.0",
     coursework: [],
     distinctions: [
       "Anatomy",
