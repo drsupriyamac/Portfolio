@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Supriya Macherla — Portfolio
 
-## Getting Started
+Personal portfolio site built with **Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · Lucide icons**.
+It builds to a fully static site in `out/` and can be hosted for free anywhere.
 
-First, run the development server:
+## Update content
+
+All text lives in **`src/data/profile.ts`**: profile, skills, projects, experience, education and publications.
+Edit that file, then rebuild. To replace the resume, overwrite `public/Supriya-Macherla-Resume.pdf` and keep the same filename.
+
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run build      # static export to ./out
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Vercel (recommended)**
+1. Push this folder to a GitHub repository.
+2. In Vercel, go to **Add New → Project**, import the repo and click **Deploy**. Vercel detects Next.js automatically.
+3. Optional: under Settings → Environment Variables, set `NEXT_PUBLIC_SITE_URL` to your final URL (for example `https://supriyamacherla.com`) and redeploy. This keeps SEO metadata, the sitemap and canonical links correct.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Netlify**: import the repo, set the build command to `npm run build` and the publish directory to `out`.
 
-## Learn More
+**Drag-and-drop (no Git)**: run `npm run build`, then drag the `out/` folder onto https://app.netlify.com/drop.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The form opens the visitor's email app with the message pre-filled (no server needed).
+To receive submissions directly instead, create a free form at https://formspree.io and change the
+`onSubmit` handler in `src/components/Contact.tsx` to `fetch` the Formspree endpoint.
