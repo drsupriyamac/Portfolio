@@ -6,9 +6,10 @@ import { profile } from "@/data/profile";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#roles", label: "Target Roles" },
+  { href: "#roles", label: "Roles" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
+  { href: "#writing", label: "Writing" },
   { href: "#experience", label: "Experience" },
   { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
@@ -65,11 +66,11 @@ export function Nav() {
       }`}
     >
       <nav aria-label="Primary" className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#top" className="font-serif text-lg font-semibold tracking-tight text-ink dark:text-white">
+        <a href="#top" className="font-serif text-lg font-semibold tracking-tight whitespace-nowrap text-ink dark:text-white">
           Supriya Macherla<span className="text-accent dark:text-teal-300">.</span>
         </a>
 
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden items-center gap-0.5 xl:flex">
           {links.map((l) => (
             <li key={l.href}>
               <a
@@ -93,7 +94,7 @@ export function Nav() {
           </a>
           <button
             type="button"
-            className="grid size-10 place-items-center rounded-full text-ink lg:hidden dark:text-white"
+            className="grid size-10 place-items-center rounded-full text-ink xl:hidden dark:text-white"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}
@@ -105,7 +106,7 @@ export function Nav() {
       </nav>
 
       {open && (
-        <div id="mobile-menu" className="border-t border-slate-200/70 px-4 pb-6 pt-2 lg:hidden dark:border-white/10">
+        <div id="mobile-menu" className="border-t border-slate-200/70 px-4 pb-6 pt-2 xl:hidden dark:border-white/10">
           <ul className="flex flex-col">
             {links.map((l) => (
               <li key={l.href}>

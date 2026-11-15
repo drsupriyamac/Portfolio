@@ -6,7 +6,7 @@ It builds to a fully static site in `out/` and can be hosted for free anywhere.
 ## Update content
 
 All text lives in **`src/data/profile.ts`**: profile, skills, projects, experience, education and publications.
-Edit that file, then rebuild. To replace the resume, overwrite `public/Supriya-Macherla-Resume.pdf` and keep the same filename.
+Edit that file, then rebuild. Writing samples (PDFs, images and their cover thumbnails) live in `public/samples/` and are listed in `writingSamples` in the same file. To replace the resume, overwrite `public/Supriya-Macherla-Resume.pdf` and keep the same filename.
 
 ## Run locally
 

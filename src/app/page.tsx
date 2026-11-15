@@ -9,6 +9,7 @@ import { Nav } from "@/components/Nav";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { TargetRoles } from "@/components/TargetRoles";
+import { WritingSamples } from "@/components/WritingSamples";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <TargetRoles />
         <Skills />
         <Projects />
+        <WritingSamples />
         <Experience />
         <Education />
         <Achievements />

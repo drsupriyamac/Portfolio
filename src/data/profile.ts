@@ -99,6 +99,7 @@ export const skillGroups = [
       "Substantial equivalence & predicate analysis",
       "De Novo",
       "FDA regulation of AI/ML SaMD",
+      "PCCPs for AI-enabled devices",
       "CDSCO MDR 2017",
       "EU MDR 2017/745 (CE marking)",
     ],
@@ -138,6 +139,7 @@ export const skillGroups = [
       "TGA COR-B",
       "Swissmedic Art. 13 TPA",
       "Health Canada MDSAP",
+      "ASEAN CSDT dossier",
       "Regulatory & medical writing",
     ],
   },
@@ -350,5 +352,84 @@ export const recognition = [
   {
     title: "Poster presentation — Iris™ regulatory strategy",
     detail: "UW GPSS Symposium · May 2026",
+  },
+];
+
+export type WritingSample = {
+  id: string;
+  type: string;
+  title: string;
+  subtitle: string;
+  context: string;
+  credit: string;
+  summary: string;
+  demonstrates: string[];
+  file: string;
+  cover: string;
+  coverAlt: string;
+  linkLabel: string;
+  meta: string;
+};
+
+export const writingSamples: WritingSample[] = [
+  {
+    id: "babysat-strategy",
+    type: "Global regulatory strategy",
+    title: "Bringing BabySat 3 to Infants at Home",
+    subtitle: "An FDA-led, five-market registration plan for a home infant pulse oximeter",
+    context: "PHR 527, Global Regulatory Strategy · University of Washington · November 2026",
+    credit: "Excerpt · market assessment",
+    summary:
+      "How an existing FDA 510(k) clearance (K222597) shapes market entry: five markets scored on infant population, device class and route, review time, cost, FDA reliance, labeling language and marketing rules, then ranked into two tiers.",
+    demonstrates: [
+      "Market assessment framework across Indonesia, Thailand, Malaysia, the EU and the UK",
+      "Why the ASEAN markets lead: FDA-reliance routes and one shared CSDT dossier",
+      "Why the EU and UK follow: CE marking under the MDR and the UK's reliance on it",
+    ],
+    file: "/samples/Macherla-BabySat3-Strategy-Excerpt.pdf",
+    cover: "/samples/babysat-cover.webp",
+    coverAlt: "Table 1 from the BabySat 3 regulatory strategy: population, infants and labeling language by market",
+    linkLabel: "Read the excerpt",
+    meta: "PDF · 3 pages",
+  },
+  {
+    id: "samd-paper",
+    type: "Regulatory policy paper",
+    title: "Regulating Intelligence",
+    subtitle: "FDA's Framework for AI/ML-Based Software as a Medical Device",
+    context: "PHARM 518, Biomedical Regulatory Affairs · University of Washington · June 2026",
+    credit: "Sole author",
+    summary:
+      "Analyzes how FDA moved from one-time gatekeeper to Total Product Lifecycle oversight for adaptive algorithms, and why continuous learning strains the 510(k) substantial-equivalence model.",
+    demonstrates: [
+      "Executive summary and structured regulatory analysis",
+      "510(k), De Novo and PMA pathways; IMDRF SaMD risk categorization",
+      "2021 AI/ML SaMD Action Plan and December 2024 PCCP final guidance (FD&C Act §515C)",
+      "IDx-DR De Novo precedent, algorithmic bias and post-market drift",
+    ],
+    file: "/samples/Macherla-AI-ML-SaMD-Regulatory-Paper.pdf",
+    cover: "/samples/paper-cover.webp",
+    coverAlt: "First page of the paper 'Regulating Intelligence: FDA's Framework for AI/ML-Based Software as a Medical Device'",
+    linkLabel: "Read the paper",
+    meta: "PDF · 6 pages",
+  },
+  {
+    id: "pccp-slide",
+    type: "Presentation slide",
+    title: "Predetermined Change Control Plans",
+    subtitle: "Pre-approving the boundaries of change",
+    context: "From \u201cRegulating Intelligence\u201d · PHARM 518 · University of Washington · May 2026",
+    credit: "Co-presented with Jyoti Jaiswal",
+    summary:
+      "One slide that explains the PCCP concept: the AI is allowed to evolve inside an FDA-authorized envelope, and any change outside it is a prohibited, unauthorized modification that needs a new submission.",
+    demonstrates: [
+      "Turning December 2024 FDA guidance into a single visual",
+      "Clear explanation of what a PCCP allows and prohibits",
+    ],
+    file: "/samples/Macherla-Jaiswal-PCCP-Slide.webp",
+    cover: "/samples/pccp-slide-cover.webp",
+    coverAlt: "Slide titled 'Predetermined Change Control Plans (PCCPs), Dec 2024' showing a dynamic container inside a PCCP authorized envelope, with changes outside it marked as prohibited unauthorized modifications",
+    linkLabel: "View the slide",
+    meta: "Image · 1 slide",
   },
 ];

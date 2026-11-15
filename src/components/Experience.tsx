@@ -9,7 +9,6 @@ export function Experience() {
       eyebrow="Experience"
       title="Compliance in practice, not just on paper"
       intro="Research and clinical roles where device handling, sterilization and documentation were held to regulatory standards every day."
-      className="bg-white/60 dark:bg-white/[0.015]"
     >
       <ol className="relative space-y-10 border-l border-slate-200 pl-6 sm:pl-10 dark:border-white/10">
         {experience.map((r, i) => (
