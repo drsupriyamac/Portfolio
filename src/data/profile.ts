@@ -12,7 +12,7 @@ export const profile = {
   subheadline:
     "510(k) & global submissions · Design controls · Risk management · Clinical trials (ICH GCP)",
   intro:
-    "Dentist turned regulatory affairs professional. MS candidate in Biomedical Regulatory Affairs at the University of Washington, building the 510(k) plan for Iris™, a Class II dental device I originated. Backed by 2+ years of clinical practice under CDSCO and NABH compliance.",
+    "Dentist turned regulatory affairs professional. MS candidate in Biomedical Regulatory Affairs at the University of Washington, developing the product development plan (PDP) for Iris™, a Class II dental device I originated. Backed by 2+ years of clinical practice under CDSCO and NABH compliance.",
   location: "Greater Seattle Area, WA",
   email: "drsupriyamac@gmail.com",
   linkedin: "https://www.linkedin.com/in/dr-supriya-macherla-3101942a3/",
@@ -68,7 +68,7 @@ export const about = {
   paragraphs: [
     "I am a regulatory affairs MS candidate at the University of Washington with applied work across the full product lifecycle, from medical device submissions and design controls to clinical trial documentation and international market strategy.",
     "Before moving into regulatory affairs, I practiced as a licensed dentist in India for more than two years, working under CDSCO, NABH and DCI requirements. That gave me firsthand knowledge of how devices are actually handled, sterilized and used on patients. I now bring that perspective to user needs, hazard analysis and labeling decisions.",
-    "Today I am taking a device of my own from concept toward market: Iris™, a Class II smart intraoral mirror, for which I am developing the 510(k) plan, risk file and design control framework.",
+    "Today I am taking a device of my own from concept toward market: Iris™, a Class II smart intraoral mirror, for which I am developing the product development plan (PDP), risk file and design control framework.",
   ],
   strengths: [
     {
@@ -174,13 +174,13 @@ export const projects: Project[] = [
   {
     id: "iris",
     name: "Iris™ Smart Intraoral Dental Mirror",
-    tag: "Class II device · 510(k)",
+    tag: "Class II device · PDP",
     role: "Originator · Independent project",
-    status: "510(k) plan in development",
+    status: "PDP in development",
     problem:
       "Take a self-originated smart intraoral mirror from concept to a market-ready Class II regulatory plan, including a device that combines reusable electronics with patient-contacting surfaces.",
     contributions: [
-      "Originated the device concept and am developing its 510(k) plan.",
+      "Originated the device concept and am developing its product development plan (PDP).",
       "Building the bill of materials.",
       "Designed a two-zone sterilization architecture: reusable electronics with a disposable barrier sleeve.",
       "Applying ISO 14971 risk management and 21 CFR 820.30 design controls while working through submission planning.",
@@ -188,7 +188,7 @@ export const projects: Project[] = [
     outcomes: [
       "Presented the Iris™ regulatory strategy as a poster at the UW GPSS Symposium (May 2026).",
     ],
-    frameworks: ["FDA 510(k)", "21 CFR 820.30", "ISO 14971", "Sterilization design"],
+    frameworks: ["Product development plan", "21 CFR 820.30", "ISO 14971", "Sterilization design"],
     featured: true,
   },
   {

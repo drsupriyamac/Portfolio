@@ -76,7 +76,7 @@ export function Hero() {
             <li className="flex gap-3">
               <FileCheck2 className="mt-0.5 size-5 shrink-0 text-accent dark:text-teal-300" aria-hidden="true" />
               <span className="text-slate-700 dark:text-slate-300">
-                <strong className="font-semibold text-ink dark:text-white">Building a 510(k) plan</strong>
+                <strong className="font-semibold text-ink dark:text-white">Developing a PDP</strong>
                 <br />Iris™, a self-originated Class II dental device
               </span>
             </li>
